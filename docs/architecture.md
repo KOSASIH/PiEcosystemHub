@@ -4,7 +4,7 @@
 The Pi Ecosystem Integration Hub (PEIH) is designed to facilitate the integration of decentralized applications (dApps) within the Pi Network. This document provides an overview of the system architecture, including its components and interactions.
 
 ## Architecture Diagram
-![Architecture Diagram](path/to/PiEcosystemHub.peg)
+![Architecture Diagram](path/to/PiEcosystemHub.jpeg)
 
 ## Components
 
