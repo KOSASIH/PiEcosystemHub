@@ -1,38 +1,46 @@
 // src/models/dApp.js
 
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const dAppSchema = new mongoose.Schema({
-    name: {
-        type: String,
-        required: true,
-        trim: true,
-        unique: true,
+  name: {
+    type: String,
+    required: true,
+    trim: true,
+  },
+  description: {
+    type: String,
+    required: true,
+    trim: true,
+  },
+  url: {
+    type: String,
+    required: true,
+    validate: {
+      validator: function(v) {
+        // Simple URL validation
+        return /^(ftp|http|https):\/\/[^ "]+$/.test(v);
+      },
+      message: props => `${props.value} is not a valid URL!`
     },
-    description: {
-        type: String,
-        required: true,
-    },
-    url: {
-        type: String,
-        required: true,
-        validate: {
-            validator: function(v) {
-                return /^(ftp|http|https):\/\/[^ "]+$/.test(v);
-            },
-            message: props => `${props.value} is not a valid URL!`
-        }
-    },
-    createdBy: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'User ',
-        required: true,
-    },
-    createdAt: {
-        type: Date,
-        default: Date.now,
-    },
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now,
+  },
+  updatedAt: {
+    type: Date,
+    default: Date.now,
+  },
 });
 
-// Export the dApp model
-module.exports = mongoose.model('dApp', dAppSchema);
+// Middleware to update the updatedAt field before saving
+dAppSchema.pre('save', function(next) {
+  this.updatedAt = Date.now();
+  next();
+});
+
+// Create the model
+const dApp = mongoose.model('dApp', dAppSchema);
+
+export default dApp;
