@@ -1,0 +1,15 @@
+disable-default-queries: false  # Set to true to disable default queries
+
+queries:
+  - uses: security-and-quality  # Use the built-in security and quality queries
+  - uses: ./my-custom-queries  # Path to your custom queries
+
+paths:
+  - src  # Directory to scan
+paths-ignore:
+  - src/node_modules  # Ignore node_modules directory
+  - '**/*.test.js'  # Ignore test files
+
+query-filters:
+  - exclude:
+      id: js/redundant-assignment  # Exclude specific queries
