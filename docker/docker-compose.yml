@@ -1,0 +1,34 @@
+# docker/docker-compose.yml
+
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8080:8080"  # Map host port 8080 to container port 8080
+    environment:
+      NODE_ENV: production
+      MONGODB_URI: mongodb://mongo:27017/mydatabase  # Use the MongoDB service
+    depends_on:
+      - mongo
+    networks:
+      - app-network
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"  # Map host port 27017 to container port 27017
+    volumes:
+      - mongo-data:/data/db  # Persist MongoDB data
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mongo-data:
