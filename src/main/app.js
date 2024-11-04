@@ -1,35 +1,49 @@
 // src/main/app.js
 
-const express = require('express');
-const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
-const morgan = require('morgan');
-const cors = require('cors');
-const authRoutes = require('./routes/authRoutes');
-const dAppRoutes = require('./routes/dAppRoutes');
-const errorMiddleware = require('./middleware/errorMiddleware');
-const config = require('./config');
+import express from 'express';
+import bodyParser from 'body-parser';
+import cors from 'cors';
+import helmet from 'helmet';
+import morgan from 'morgan';
+import { createConnection } from 'typeorm'; // Assuming you're using TypeORM for database
+import authRoutes from './routes/authRoutes';
+import dAppRoutes from './routes/dAppRoutes';
+import { CustomExceptionFilter } from './filters/custom-exception.filter'; // Custom error handling
+import { Logger } from '@nestjs/common';
 
 const app = express();
+const logger = new Logger('App');
 
-// Middleware
-app.use(cors());
-app.use(morgan('dev'));
-app.use(bodyParser.json());
+// Middleware setup
+app.use(helmet()); // Security headers
+app.use(cors()); // Enable CORS
+app.use(bodyParser.json()); // Parse JSON bodies
+app.use(morgan('combined')); // HTTP request logging
 
-// Database Connection
-mongoose.connect(config.databaseUri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-})
-.then(() => console.log('MongoDB connected'))
-.catch(err => console.error('MongoDB connection error:', err));
+// Database connection (example with TypeORM)
+createConnection()
+  .then(() => {
+    logger.log('Database connected successfully');
+  })
+  .catch((error) => {
+    logger.error('Database connection failed', error);
+    process.exit(1); // Exit the process if the database connection fails
+  });
 
 // Routes
 app.use('/api/auth', authRoutes);
-app.use('/api/dapps', dAppRoutes);
+app.use('/api/dapp', dAppRoutes);
 
-// Error Handling Middleware
-app.use(errorMiddleware);
+// Error handling middleware
+app.use((err, req, res, next) => {
+  logger.error('Unhandled error', err);
+  res.status(err.status || 500).json({
+    message: err.message || 'Internal Server Error',
+  });
+});
 
-module.exports = app;
+// Start the server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  logger.log(`Server is running on http://localhost:${PORT}`);
+});
