@@ -15,19 +15,35 @@ const DiscountService = require('./discountService');
 class MarketplaceService {
   // User Authentication
   async registerUser (username, password) {
-    return await AuthService.register(username, password);
+    try {
+      return await AuthService.register(username, password);
+    } catch (error) {
+      throw new Error('Registration failed: ' + error.message);
+    }
   }
 
   async loginUser (username, password) {
-    return await AuthService.login(username, password);
+    try {
+      return await AuthService.login(username, password);
+    } catch (error) {
+      throw new Error('Login failed: ' + error.message);
+    }
   }
 
   async getUser Profile(userId) {
-    return await UserProfileService.getUser Profile(userId);
+    try {
+      return await UserProfileService.getUser Profile(userId);
+    } catch (error) {
+      throw new Error('Failed to get user profile: ' + error.message);
+    }
   }
 
   async updateUser Profile(userId, profileData) {
-    return await UserProfileService.updateUser Profile(userId, profileData);
+    try {
+      return await UserProfileService.updateUser Profile(userId, profileData);
+    } catch (error) {
+      throw new Error('Failed to update user profile: ' + error.message);
+    }
   }
 
   // Product Management
