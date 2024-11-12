@@ -8,6 +8,16 @@
 [![Blockchain Association](https://img.shields.io/badge/Blockchain%20Association-Member-2196F3?style=for-the-badge)](https://www.blockchainassociation.org/)
 [![Coinbase Earn](https://img.shields.io/badge/Coinbase%20Earn-Listed%20Project-FFB300?style=for-the-badge)](https://www.coinbase.com/earn)
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-Sponsored%20Project-FF4081?style=for-the-badge)](https://github.com/sponsors)
+[![Blockchain Research Institute](https://img.shields.io/badge/Blockchain%20Research%20Institute-Partner-4CAF50?style=for-the-badge)](https://www.blockchainresearchinstitute.org/)
+[![Hyperledger](https://img.shields.io/badge/Hyperledger-Project-00BFFF?style=for-the-badge)](https://www.hyperledger.org/)
+[![Ethereum](https://img.shields.io/badge/Ethereum-Community%20Project-3C3C3D?style=for-the-badge)](https://ethereum.org/en/community/)
+[![Corda](https://img.shields.io/badge/Corda-Open%20Source%20Project-FF9800?style=for-the-badge)](https://www.corda.net/)
+[![W3C](https://img.shields.io/badge/W3C-Blockchain%20Community-FF5733?style=for-the-badge)](https://www.w3.org/community/blockchain/)
+[![DAML](https://img.shields.io/badge/DAML-Open%20Source%20Project-9C27B0?style=for-the-badge)](https://daml.com/)
+[![Blockchain in Transport Alliance](https://img.shields.io/badge/Blockchain%20in%20Transport%20Alliance-Member-2196F3?style=for-the-badge)](https://www.bita.studio/)
+[![Global Blockchain Business Council](https://img.shields.io/badge/Global%20Blockchain%20Business%20Council-Member-FFB300?style=for-the-badge)](https://gbbcouncil.org/)
+[![Blockchain Association](https://img.shields.io/badge/Blockchain%20Association-Member-FF4081?style=for-the-badge)](https://www.blockchainassociation.org/)
+[![Crypto Valley Association](https://img.shields.io/badge/Crypto%20Valley%20Association-Member-4CAF50?style=for-the-badge)](https://cryptovalley.swiss/)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/PiEcosystemHub">Pi Ecosystem Integration Hub ( PEIH ) </a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
