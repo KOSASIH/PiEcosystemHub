@@ -28,6 +28,16 @@
 [![Blockchain in Healthcare Today](https://img.shields.io/badge/Blockchain%20in%20Healthcare%20Today-Publication-FF4081?style=for-the-badge)](https://blockchainhealthcaretoday.com/)
 [![Digital Chamber of Commerce](https://img.shields.io/badge/Digital%20Chamber%20of%20Commerce-Member-FFB300?style=for-the-badge)](https://www.digitalchamber.org/)
 [![Blockchain for Good](https://img.shields.io/badge/Blockchain%20for%20Good-Partner-4CAF50?style=for-the-badge)](https://blockchainforgood.org/)
+[![Blockchain Council](https://img.shields.io/badge/Blockchain%20Council-Certified-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
+[![Blockchain Education Network](https://img.shields.io/badge/Blockchain%20Education%20Network-Member-00BFFF?style=for-the-badge)](https://www.blockchainedu.org/)
+[![Crypto Valley Association](https://img.shields.io/badge/Crypto%20Valley%20Association-Member-4CAF50?style=for-the-badge)](https://cryptovalley.swiss/)
+[![Blockchain Research Institute](https://img.shields.io/badge/Blockchain%20Research%20Institute-Partner-3C3C3D?style=for-the-badge)](https://www.blockchainresearchinstitute.org/)
+[![Global Blockchain Forum](https://img.shields.io/badge/Global%20Blockchain%20Forum-Member-FF5733?style=for-the-badge)](https://www.globalblockchainforum.com/)
+[![Blockchain for Sustainable Development](https://img.shields.io/badge/Blockchain%20for%20Sustainable%20Development-Partner-2196F3?style=for-the-badge)](https://www.blockchainforsustainabledevelopment.org/)
+[![Blockchain in Energy](https://img.shields.io/badge/Blockchain%20in%20Energy-Community-9C27B0?style=for-the-badge)](https://www.blockchaininenergy.org/)
+[![Blockchain for Supply Chain](https://img.shields.io/badge/Blockchain%20for%20Supply%20Chain-Partner-FF4081?style=for-the-badge)](https://www.blockchainforsupplychain.org/)
+[![International Association for Trusted Blockchain Applications](https://img.shields.io/badge/International%20Association%20for%20Trusted%20Blockchain%20Applications-Member-FFB300?style=for-the-badge)](https://iatba.org/)
+[![Blockchain in Finance](https://img.shields.io/badge/Blockchain%20in%20Finance-Community-4CAF50?style=for-the-badge)](https://www.blockchaininfinance.org/)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/PiEcosystemHub">Pi Ecosystem Integration Hub ( PEIH ) </a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
