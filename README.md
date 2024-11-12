@@ -51,6 +51,16 @@
 [![University of Cambridge Centre for Alternative Finance](https://img.shields.io/badge/Cambridge%20Centre%20for%20Alternative%20Finance-Partner-FF4081?style=for-the-badge)](https://www.jbs.cam.ac.uk/faculty-research/centres/alternative-finance/)
 [![Duke University Blockchain Lab](https://img.shields.io/badge/Duke%20University%20Blockchain%20Lab-Member-FFB300?style=for-the-badge)](https://www.duke.edu/)
 [![NYU Stern Blockchain Program](https://img.shields.io/badge/NYU%20Stern%20Blockchain%20Program-Partner-4CAF50?style=for-the-badge)](https://www.stern.nyu.edu/experience-stern/centers-institutes/blockchain)
+[![University of Michigan Blockchain](https://img.shields.io/badge/University%20of%20Michigan%20Blockchain-Member-FF9800?style=for-the-badge)](https://michiganblockchain.org/)
+[![University of Toronto Blockchain](https://img.shields.io/badge/University%20of%20Toronto%20Blockchain-Member-00BFFF?style=for-the-badge)](https://torontoblockchain.org/)
+[![University of California, San Diego Blockchain](https://img.shields.io/badge/UC%20San%20Diego%20Blockchain-Member-4CAF50?style=for-the-badge)](https://blockchain.ucsd.edu/)
+[![Georgia Tech Blockchain](https://img.shields.io/badge/Georgia%20Tech%20Blockchain-Member-3C3C3D?style=for-the-badge)](https://www.blockchain.gatech.edu/)
+[![University of Washington Blockchain](https://img.shields.io/badge/University%20of%20Washington%20Blockchain-Member-FF5733?style=for-the-badge)](https://uwblockchain.org/)
+[![University of Southern California Blockchain](https://img.shields.io/badge/USC%20Blockchain-Member-2196F3?style=for-the-badge)](https://www.blockchain.usc.edu/)
+[![Purdue University Blockchain](https://img.shields.io/badge/Purdue%20University%20Blockchain-Member-9C27B0?style=for-the-badge)](https://www.purdue.edu/blockchain/)
+[![Northwestern University Blockchain](https://img.shields.io/badge/Northwestern%20University%20Blockchain-Member-FF4081?style=for-the-badge)](https://www.northwestern.edu/)
+[![University of Illinois Blockchain](https://img.shields.io/badge/University%20of%20Illinois%20Blockchain-Member-FFB300?style=for-the-badge)](https://blockchain.illinois.edu/)
+[![University of Edinburgh Blockchain](https://img.shields.io/badge/University%20of%20Edinburgh%20Blockchain-Member-4CAF50?style=for-the-badge)](https://www.ed.ac.uk/information-services/learning-technology/blockchain)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/PiEcosystemHub">Pi Ecosystem Integration Hub ( PEIH ) </a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
