@@ -18,6 +18,16 @@
 [![Global Blockchain Business Council](https://img.shields.io/badge/Global%20Blockchain%20Business%20Council-Member-FFB300?style=for-the-badge)](https://gbbcouncil.org/)
 [![Blockchain Association](https://img.shields.io/badge/Blockchain%20Association-Member-FF4081?style=for-the-badge)](https://www.blockchainassociation.org/)
 [![Crypto Valley Association](https://img.shields.io/badge/Crypto%20Valley%20Association-Member-4CAF50?style=for-the-badge)](https://cryptovalley.swiss/)
+[![Blockchain Technology Partners](https://img.shields.io/badge/Blockchain%20Technology%20Partners-Partner-FF9800?style=for-the-badge)](https://blockchaintechnologypartners.com/)
+[![International Blockchain Association](https://img.shields.io/badge/International%20Blockchain%20Association-Member-00BFFF?style=for-the-badge)](https://www.ibassociation.org/)
+[![CryptoCurrency Certification Consortium](https://img.shields.io/badge/CryptoCurrency%20Certification%20Consortium-Certified-4CAF50?style=for-the-badge)](https://cryptoconsortium.org/)
+[![Blockchain for Social Impact Coalition](https://img.shields.io/badge/Blockchain%20for%20Social%20Impact%20Coalition-Member-FF5733?style=for-the-badge)](https://www.blockchainforsocialimpact.com/)
+[![Decentralized Identity Foundation](https://img.shields.io/badge/Decentralized%20Identity%20Foundation-Member-2196F3?style=for-the-badge)](https://identity.foundation/)
+[![OpenID Foundation](https://img.shields.io/badge/OpenID%20Foundation-Member-9C27B0?style=for-the-badge)](https://openid.net/foundation/)
+[![Enterprise Ethereum Alliance](https://img.shields.io/badge/Enterprise%20Ethereum%20Alliance-Member-3C3C3D?style=for-the-badge)](https://entethalliance.org/)
+[![Blockchain in Healthcare Today](https://img.shields.io/badge/Blockchain%20in%20Healthcare%20Today-Publication-FF4081?style=for-the-badge)](https://blockchainhealthcaretoday.com/)
+[![Digital Chamber of Commerce](https://img.shields.io/badge/Digital%20Chamber%20of%20Commerce-Member-FFB300?style=for-the-badge)](https://www.digitalchamber.org/)
+[![Blockchain for Good](https://img.shields.io/badge/Blockchain%20for%20Good-Partner-4CAF50?style=for-the-badge)](https://blockchainforgood.org/)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/PiEcosystemHub">Pi Ecosystem Integration Hub ( PEIH ) </a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
