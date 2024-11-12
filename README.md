@@ -41,6 +41,17 @@
 [![Blockchain for Social Impact Coalition](https://img.shields.io/badge/Blockchain%20for%20Social%20Impact%20Coalition-Member-3C3C3D?style=for-the-badge)](https://www.blockchainforsocialimpact.com/)
 [![Blockchain for Climate Foundation](https://img.shields.io/badge/Blockchain%20for%20Climate%20Foundation-Partner-4CAF50?style=for-the-badge)](https://www.blockchainforclimate.org/)
 
+[![Stanford Blockchain Research Center](https://img.shields.io/badge/Stanford%20Blockchain%20Research%20Center-Partner-FF9800?style=for-the-badge)](https://cyber.stanford.edu/blockchain)
+[![Stanford Center for Blockchain Research](https://img.shields.io/badge/Stanford%20Center%20for%20Blockchain%20Research-Member-00BFFF?style=for-the-badge)](https://cbr.stanford.edu/)
+[![MIT Digital Currency Initiative](https://img.shields.io/badge/MIT%20Digital%20Currency%20Initiative-Partner-4CAF50?style=for-the-badge)](https://dci.mit.edu/)
+[![Harvard Blockchain and Fintech Initiative](https://img.shields.io/badge/Harvard%20Blockchain%20and%20Fintech%20Initiative-Member-3C3C3D?style=for-the-badge)](https://blockchain.harvard.edu/)
+[![UC Berkeley Blockchain Lab](https://img.shields.io/badge/UC%20Berkeley%20Blockchain%20Lab-Partner-FF5733?style=for-the-badge)](https://blockchain.berkeley.edu/)
+[![Oxford Blockchain Research Centre](https://img.shields.io/badge/Oxford%20Blockchain%20Research%20Centre-Member-2196F3?style=for-the-badge)](https://www.oxfordblockchain.org/)
+[![Columbia University Blockchain](https://img.shields.io/badge/Columbia%20University%20Blockchain-Member-9C27B0?style=for-the-badge)](https://www.columbiacryptography.org/)
+[![University of Cambridge Centre for Alternative Finance](https://img.shields.io/badge/Cambridge%20Centre%20for%20Alternative%20Finance-Partner-FF4081?style=for-the-badge)](https://www.jbs.cam.ac.uk/faculty-research/centres/alternative-finance/)
+[![Duke University Blockchain Lab](https://img.shields.io/badge/Duke%20University%20Blockchain%20Lab-Member-FFB300?style=for-the-badge)](https://www.duke.edu/)
+[![NYU Stern Blockchain Program](https://img.shields.io/badge/NYU%20Stern%20Blockchain%20Program-Partner-4CAF50?style=for-the-badge)](https://www.stern.nyu.edu/experience-stern/centers-institutes/blockchain)
+
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/PiEcosystemHub">Pi Ecosystem Integration Hub ( PEIH ) </a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 # PiEcosystemHub
