@@ -1,6 +1,6 @@
 // src/config/currencyConfig.js
 
-const fs = require('fs');
+const fs = require('fs').promises; // Use promises for async file operations
 const path = require('path');
 const axios = require('axios');
 
@@ -8,6 +8,8 @@ class CurrencyConfig {
     constructor() {
         this.piCoinValue = 314.159; // Set the static value of Pi Coin
         this.currencyRates = {}; // To store dynamic currency rates
+        this.logFilePath = path.join(__dirname, 'currencyRates.log');
+        this.piCoinValueLogPath = path.join(__dirname, 'piCoinValueChange.log');
         this.loadCurrencyRates();
     }
 
@@ -16,17 +18,21 @@ class CurrencyConfig {
         try {
             const response = await axios.get('https://api.exchangerate-api.com/v4/latest/USD');
             this.currencyRates = response.data.rates;
-            this.logCurrencyRates();
+            await this.logCurrencyRates();
         } catch (error) {
-            console.error('Error loading currency rates:', error);
+            console.error('Error loading currency rates:', error.message);
+            // Optionally, you could implement a retry mechanism here
         }
     }
 
     // Log the current currency rates to a file
-    logCurrencyRates() {
-        const logFilePath = path.join(__dirname, 'currencyRates.log');
+    async logCurrencyRates() {
         const logData = `Currency Rates as of ${new Date().toISOString()}:\n${JSON.stringify(this.currencyRates, null, 2)}\n\n`;
-        fs.appendFileSync(logFilePath, logData);
+        try {
+            await fs.appendFile(this.logFilePath, logData);
+        } catch (error) {
+            console.error('Error logging currency rates:', error.message);
+        }
     }
 
     // Convert Pi Coin value to another currency
@@ -50,10 +56,13 @@ class CurrencyConfig {
     }
 
     // Log the change in Pi Coin value
-    logPiCoinValueChange(newValue) {
-        const logFilePath = path.join(__dirname, 'piCoinValueChange.log');
+    async logPiCoinValueChange(newValue) {
         const logData = `Pi Coin value changed to ${newValue} on ${new Date().toISOString()}\n`;
-        fs.appendFileSync(logFilePath, logData);
+        try {
+            await fs.appendFile(this.piCoinValueLogPath, logData);
+        } catch (error) {
+            console.error('Error logging Pi Coin value change:', error.message);
+        }
     }
 }
 
