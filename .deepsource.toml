@@ -1,10 +1,6 @@
 version = 1
 
 [[analyzers]]
-name = "cfn-lint"
-type = "community"
-
-[[analyzers]]
 name = "shell"
 
 [[analyzers]]
