@@ -3,13 +3,45 @@ disable-default-queries: false  # Set to true to disable default queries
 queries:
   - uses: security-and-quality  # Use the built-in security and quality queries
   - uses: ./my-custom-queries  # Path to your custom queries
+  - uses: ./advanced-queries  # Path to advanced queries for deeper analysis
 
 paths:
   - src  # Directory to scan
+  - lib  # Additional directory to scan for libraries
+  - scripts  # Directory for scripts that may contain vulnerabilities
+
 paths-ignore:
   - src/node_modules  # Ignore node_modules directory
   - '**/*.test.js'  # Ignore test files
+  - '**/*.spec.js'  # Ignore spec files
+  - '**/vendor/**'  # Ignore vendor directories
 
 query-filters:
   - exclude:
       id: js/redundant-assignment  # Exclude specific queries
+  - include:
+      id: js/unused-variables  # Include specific queries to ensure no unused variables
+
+reporting:
+  format: 
+    - json  # Output report in JSON format for easy integration
+    - html  # Generate an HTML report for human-readable results
+  output-directory: reports  # Directory to save reports
+  fail-on-severity: high  # Fail the build if any high severity issues are found
+  notify-on-failure: true  # Send notifications if the scan fails
+
+advanced-features:
+  - enable-deep-scan: true  # Enable deep scanning for more thorough analysis
+  - use-async-queries: true  # Use asynchronous queries for faster processing
+  - enable-cache: true  # Enable caching of results to speed up subsequent scans
+  - custom-thresholds:
+      high: 5  # Set a threshold for high severity issues
+      medium: 10  # Set a threshold for medium severity issues
+      low: 20  # Set a threshold for low severity issues
+
+integration:
+  ci-cd:
+    - tool: GitHub Actions  # Specify CI/CD tool for integration
+      workflow-file: .github/workflows/scan.yml  # Path to the workflow file
+    - tool: GitLab CI  # Specify GitLab CI for integration
+      pipeline-file: .gitlab-ci.yml  # Path to the pipeline file
