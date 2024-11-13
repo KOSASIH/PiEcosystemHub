@@ -1,27 +1,35 @@
+# CodeQL Configuration File
+
+# Disable default queries if you want to customize the analysis
 disable-default-queries: false  # Set to true to disable default queries
 
+# Specify the queries to run
 queries:
-  - uses: security-and-quality  # Use the built-in security and quality queries
+  - uses: security-and-quality  # Use built-in security and quality queries
   - uses: ./my-custom-queries  # Path to your custom queries
   - uses: ./advanced-queries  # Path to advanced queries for deeper analysis
 
+# Directories to scan for vulnerabilities
 paths:
-  - src  # Directory to scan
-  - lib  # Additional directory to scan for libraries
+  - src  # Main source directory
+  - lib  # Additional directory for libraries
   - scripts  # Directory for scripts that may contain vulnerabilities
 
+# Directories and files to ignore during the scan
 paths-ignore:
   - src/node_modules  # Ignore node_modules directory
-  - '**/*.test.js'  # Ignore test files
-  - '**/*.spec.js'  # Ignore spec files
+  - '**/*.test.js'  # Ignore all test files
+  - '**/*.spec.js'  # Ignore all spec files
   - '**/vendor/**'  # Ignore vendor directories
 
+# Query filters to include or exclude specific queries
 query-filters:
   - exclude:
       id: js/redundant-assignment  # Exclude specific queries
   - include:
-      id: js/unused-variables  # Include specific queries to ensure no unused variables
+      id: js/unused-variables  # Ensure no unused variables are present
 
+# Reporting configuration
 reporting:
   format: 
     - json  # Output report in JSON format for easy integration
@@ -30,15 +38,17 @@ reporting:
   fail-on-severity: high  # Fail the build if any high severity issues are found
   notify-on-failure: true  # Send notifications if the scan fails
 
+# Advanced features for deeper analysis
 advanced-features:
-  - enable-deep-scan: true  # Enable deep scanning for more thorough analysis
-  - use-async-queries: true  # Use asynchronous queries for faster processing
-  - enable-cache: true  # Enable caching of results to speed up subsequent scans
-  - custom-thresholds:
-      high: 5  # Set a threshold for high severity issues
-      medium: 10  # Set a threshold for medium severity issues
-      low: 20  # Set a threshold for low severity issues
+  enable-deep-scan: true  # Enable deep scanning for more thorough analysis
+  use-async-queries: true  # Use asynchronous queries for faster processing
+  enable-cache: true  # Enable caching of results to speed up subsequent scans
+  custom-thresholds:
+    high: 5  # Set a threshold for high severity issues
+    medium: 10  # Set a threshold for medium severity issues
+    low: 20  # Set a threshold for low severity issues
 
+# CI/CD integration settings
 integration:
   ci-cd:
     - tool: GitHub Actions  # Specify CI/CD tool for integration
