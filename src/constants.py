@@ -90,3 +90,4 @@ PI_COIN_UI_THEME = "dark"  # Default theme for the user interface
 PI_COIN_UI_LANGUAGE = "en"  # Default language for the user interface
 
 # End of constants.py
+
